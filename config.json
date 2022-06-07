@@ -1,0 +1,41 @@
+{
+	"prefix": "&",
+	"developers": [
+		605453264950919189
+	],
+	"cache_size": 20000,
+	"tba": {
+		"key": "Put TBA API key here"
+	},
+	"toa": {
+		"key": "Put TOA API key here",
+		"app_name": "Dozer"
+	},
+	"db_url": "postgres://dozer:simplepass@postgres_ip:5432/dozer",
+	"gmaps_key": "PUT GOOGLE MAPS API KEY HERE",
+	"discord_token": "OTY0NzY0MDUxMzkxNTQ1MzQ0.YlpYig.8kUZ0pMsEaJ9zVQbXTdsMZ3ItnY",
+	"news": {
+		"check_interval": 5.0,
+		"twitch": {
+			"client_id": "Put Twitch Client ID here",
+			"client_secret": "Put Twitch Secret Here"
+		},
+		"reddit": {
+			"client_id": "Put Reddit Client ID here",
+			"client_secret": "Put Reddit Secret Here"
+		}
+	},
+	"lavalink": {
+		"enabled": true,
+		"host": "127.0.0.1",
+		"port": 2333,
+		"password": "youshallnotpass",
+		"identifier": "MAIN",
+		"region": "us_central"
+	},
+	"debug": false,
+	"presences_intents": false,
+	"is_backup": false,
+	"invite_override": "",
+	"sentry_url": ""
+}
