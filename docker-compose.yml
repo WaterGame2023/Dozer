@@ -14,7 +14,7 @@ services:
     environment:
       LAVALINK_SERVER_PASSWORD: youshallnotpass
       SERVER_PORT: 2333
-      SERVER_HOST: 0.0.0.0
+      SERVER_HOST: 127.0.0.1
   dozer:
     depends_on: 
       - postgres_ip
