@@ -3,18 +3,23 @@ Actionlog
 =========
 messagelogconfig
 ++++++++++++++++
-Set the modlog channel for a server by passing the channel id
+Set the message log channel for a server by passing the channel id
 ::
-   `{prefix}messagelogconfig #orwellian-dystopia` - set a channel named #orwellian-dystopia to log message edits/deletions
+   `{prefix}messagelogconfig #message-logs` - set a channel named #message-logs to log message edits/deletions
+    `{prefix}messagelogconfig {channel ID}` - configures the given channel ID to log messages
 memberlogconfig
 +++++++++++++++
 Command group to configure Join/Leave logs
 ::
-   `{prefix}memberlogconfig setchannel channel`: Sets the member log channel 
-`{prefix}memberlogconfig toggleping`: Toggles whenever members are pinged upon joining the guild
-`{prefix}memberlogconfig setjoinmessage template`: Sets join template
-`{prefix}memberlogconfig setleavemessage template`: Sets leave template
-`{prefix}memberlogconfig help`: Returns the template formatting key
+   `{prefix}memberlogconfig setchannel channel`: Sets the member log channel
+
+    `{prefix}memberlogconfig toggleping`: Toggles whenever members are pinged upon joining the guild
+
+    `{prefix}memberlogconfig setjoinmessage template`: Sets join template
+
+    `{prefix}memberlogconfig setleavemessage template`: Sets leave template
+
+    `{prefix}memberlogconfig help`: Returns the template formatting key
 setleavemessage
 +++++++++++++++
 Configure custom leave message template
